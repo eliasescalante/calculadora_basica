@@ -8,9 +8,14 @@ operador = ""
 ################## FUNCIONES ####################
 
 def calcular():
+    """
+    Calcula  el resultado de la operación y muestra en pantalla.
+    """
     global numero1
     global operador
     
+    # asigno el numero  a una variable para poder manipularlo con el metodo .get()
+    # uso una estructura condicional para determinar que operador selecciono el usuario
     numero2 = entry.get()
     if numero2:
         if operador == "+":
@@ -33,16 +38,24 @@ def calcular():
         messagebox.showerror("Error", "Ingrese un número para realizar la operación")
 
 def insertar_numero(numero):
+    """
+    Agrega los números al Entry de la ventana principal.
+    """
     global numero1
     global operador
+    # si no hay ningun numero ingresado o el ultimo caracter es un operador, agrego el numero
     if operador == "+" or operador == "-" or operador == "X" or operador == "/":
         entry.delete(0, END)
     entry.insert(END, numero)
 
 def operacion(op):
+    """
+    Asigna el operador y llama a la función calcular.
+    """
     global numero1
     global operador
     numero1 = entry.get()
+    # elimino cualquier cosa que haya en el Entry después del primer número
     if numero1:
         operador = op
         entry.delete(0, END)
