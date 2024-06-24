@@ -7,4 +7,4 @@ para probar la aplicacion descargar el contenido de la carpeta DIST
 
 Dev: Elias Escalante
 
-![captura](https://github.com/eliasescalante/primer_mvt/blob/master/capture.JPG)
+![captura](https://github.com/eliasescalante/calculadora_basica/blob/main/Capture.JPG)
