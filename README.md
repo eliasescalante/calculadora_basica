@@ -1,8 +1,8 @@
-# calculadora_basica
+# Calculadora basica (aplicacion de escritorio)
 Proyecto calculadora basica con Tkinter/Python
 Realiza las operaciones basicas mostrando en una ventana emergente el resultado de las operaciones.
 
-para probar la aplicacion descargar el contenido de la carpeta DIST
+para probar la aplicacion descargar el contenido de ejecutable de la carpeta DIST
 ----
 
 Dev: Elias Escalante
